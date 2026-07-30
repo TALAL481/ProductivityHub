@@ -24,11 +24,11 @@ header {
 
 }
 
-h1 {
+header h1 {
 
-  font-size: 40px;
+  font-size: 42px;
 
-  margin-bottom: 10px;
+  margin: 0;
 
 }
 
@@ -62,11 +62,11 @@ header p {
 
   display: grid;
 
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 
   gap: 20px;
 
-  padding: 20px;
+  padding: 25px;
 
 }
 
@@ -78,13 +78,13 @@ header p {
 
   border-radius: 20px;
 
-  transition: 0.3s;
+  text-align: center;
 
 }
 
-.tool:hover {
+.tool h2 {
 
-  transform: translateY(-5px);
+  margin-top: 0;
 
 }
 
@@ -100,15 +100,15 @@ header p {
 
   margin-top: 15px;
 
-  padding: 10px 20px;
+  padding: 12px 25px;
 
   background: #38bdf8;
 
-  color: black;
+  color: #000;
 
   text-decoration: none;
 
-  border-radius: 10px;
+  border-radius: 12px;
 
   font-weight: bold;
 
@@ -117,5 +117,13 @@ header p {
 .tool a:hover {
 
   background: white;
+
+  transform: scale(1.05);
+
+}
+
+button {
+
+  cursor: pointer;
 
 }
