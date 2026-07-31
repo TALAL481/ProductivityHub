@@ -1,0 +1,111 @@
+.weight-box {
+
+  max-width: 500px;
+
+  margin: 40px auto;
+
+  background: #1e293b;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+}
+
+.weight-box label {
+
+  display: block;
+
+  margin-top: 15px;
+
+  margin-bottom: 8px;
+
+  font-weight: bold;
+
+}
+
+.weight-box input {
+
+  width: 100%;
+
+  padding: 14px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  font-size: 16px;
+
+  margin-bottom: 15px;
+
+}
+
+.weight-box button {
+
+  width: 100%;
+
+  padding: 15px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: #38bdf8;
+
+  color: black;
+
+  font-size: 18px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+}
+
+.weight-box button:hover {
+
+  background: white;
+
+}
+
+#bmiResult {
+
+  margin-top: 25px;
+
+  font-size: 32px;
+
+}
+
+#status {
+
+  margin-top: 10px;
+
+  font-size: 24px;
+
+}
+
+#healthyRange {
+
+  margin-top: 15px;
+
+  color: #cbd5e1;
+
+  font-size: 18px;
+
+}
+
+.back {
+
+  display: inline-block;
+
+  margin-top: 25px;
+
+  color: #38bdf8;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+}
